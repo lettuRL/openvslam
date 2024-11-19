@@ -93,7 +93,7 @@ find_package(Eigen3 3.3 REQUIRED NO_MODULE)
 find_package(yaml-cpp REQUIRED)
 
 # OpenCV
-find_package(OpenCV 3.3.1 QUIET
+find_package(OpenCV 3.2.0 QUIET
              COMPONENTS
              core imgcodecs videoio features2d calib3d highgui)
 if(NOT OpenCV_FOUND)
